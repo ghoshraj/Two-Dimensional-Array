@@ -13,8 +13,7 @@ public class Multipication {
                 {15,16,17},
 
         };
-        mul m=new mul();
-        int[][] d=m.mull(a,b);
+        int[][] d= mul.mull(a,b);
         for(int[] n: d){
             for(int k:n){
                 System.out.println(k);
